@@ -2,7 +2,7 @@ import React from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUser, faKey , faEye} from '@fortawesome/free-solid-svg-icons'
 
-import {BrowserRouter as Router, Routes, Route, NavLink} from "react-router-dom";
+import {HashRouter as Router, Routes, Route, NavLink} from "react-router-dom";
 import './App.css'
 import Login from './Login'
 import Register from './Register'
